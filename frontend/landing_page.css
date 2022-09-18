@@ -45,10 +45,23 @@ nav ul li {
     color: #fff;
     font-size: large;
     display: flex;
-    padding-left: 10px;
+    padding-left: 70%;
 }
 
-.navbar-side a {
+
+/* nav ul li:hover {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: none;
+    color: #fff;
+    font-size: large;
+    display: flex;
+    padding-left: 70%;
+} */
+
+
+/* .navbar-side a {
     text-decoration: none;
     background-color: none;
     color: #fff;
@@ -62,24 +75,15 @@ nav ul li {
     max-width: 70%;
     margin-top: -1px;
 }
+*/
 
-#hi {
-    margin-left: -30%;
+.navbar-side #hi:hover {
+    text-decoration: none !important;
+    background-color: none;
+    color: floralwhite;
 }
 
-
-/*div of first  page*/
-
-.w3-content {
-    max-width: 600px;
-    max-height: 400px;
-    margin-top: 7%;
-    margin-left: 10px;
-}
-
-.w3-content p {
-    font-family: 'Martel Sans';
-    font-size: 60px;
-    color: #fff;
-    margin-left: -45%;
+.navbar-side a {
+    color: white !important;
+    text-decoration: none !important;
 }
